@@ -1,10 +1,18 @@
+* {
+font-family: Arial;
+}
+
 h1, h2 {
 	font-weight: normal;
 }
 
 #content {
-	width: 900px;
-	margin: 20px auto 20px auto;
+    background-color: #FFFFEE;
+	box-shadow: 0px 10px 10px rgba(128, 128, 128, 0.2);
+	border: 1px solid #CCCC00;
+    margin: 20px auto;
+    padding: 20px;
+    width: 900px;
 }
 
 #header {
@@ -39,6 +47,7 @@ h1, h2 {
 
 #sidebar {
 	float: right;
+	padding-left: 20px;
 	width: 350px;
 }
 
